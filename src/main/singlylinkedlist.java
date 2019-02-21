@@ -1,6 +1,10 @@
 package main;
 
 public class singlylinkedlist {
+    private node head=null;
+    private int size=0;
+    //method to insert a new node at the head
+
     private static class node {
         private int data;
         private node next;
@@ -16,4 +20,10 @@ public class singlylinkedlist {
         }
 
     }
+
+    public static void main(String[] args) {
+
+    }
 }
+
+
